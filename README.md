@@ -58,9 +58,16 @@ docker run --rm -p 8000:8000 taskflow
 ## Équipe
 
 <!-- Lab J1 : remplacez par les noms du binôme -->
-- À compléter
+- Ewan
+- Adrien
 
 ## Gouvernance du dépôt
 
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
-À compléter.
+![Push direct refusé sur main](docs/PushMainNO.png) 
+
+RulesSets: 
+
+- Restrict deletions
+- Require a pull resquest before merging
+- block force pushes
